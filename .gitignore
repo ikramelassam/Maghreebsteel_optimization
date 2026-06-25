@@ -14,3 +14,8 @@ optimiseur+interface/frontend/dist/
 # Fichiers système
 .DS_Store
 Thumbs.db
+# Résultats
+Résultats_détaillés_excel/*.xlsx
+
+# Rapport
+opti_rapport_final_G2.pdf
