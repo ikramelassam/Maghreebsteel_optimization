@@ -1,0 +1,16 @@
+# Fichiers Python compilés (inutiles sur GitHub)
+__pycache__/
+*.pyc
+*.pyo
+
+# Données auto-générées (trop grosses / régénérables)
+optimiseur+interface/backend/saved_runs.json
+optimiseur+interface/backend/exports/
+
+# Dépendances Node (à réinstaller avec npm install)
+optimiseur+interface/frontend/node_modules/
+optimiseur+interface/frontend/dist/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
