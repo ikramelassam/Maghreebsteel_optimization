@@ -1,21 +1,57 @@
-# Fichiers Python compilés (inutiles sur GitHub)
+# ==========================
+# Python
+# ==========================
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*$py.class
 
-# Données auto-générées (trop grosses / régénérables)
-optimiseur+interface/backend/saved_runs.json
-optimiseur+interface/backend/exports/
+.venv/
+venv/
+env/
 
-# Dépendances Node (à réinstaller avec npm install)
-optimiseur+interface/frontend/node_modules/
-optimiseur+interface/frontend/dist/
+.pytest_cache/
+.mypy_cache/
 
-# Fichiers système
+# ==========================
+# Node.js / React / Vite
+# ==========================
+node_modules/
+dist/
+build/
+
+# ==========================
+# IDE
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# Système
+# ==========================
 .DS_Store
 Thumbs.db
-# Résultats
-Résultats_détaillés_excel/*.xlsx
 
-# Rapport
+# ==========================
+# Variables d'environnement
+# ==========================
+.env
+.env.*
+
+# ==========================
+# Résultats générés
+# ==========================
+Résultats_détaillés_excel/*.xlsx
+Résultats_détaillés_excel/*.csv
+
+# ==========================
+# Rapports (si tu ne veux pas les publier)
+# ==========================
 opti_rapport_final_G2.pdf
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+optimiseur+interface/backend/exports/
+optimiseur+interface/backend/saved_runs.json
